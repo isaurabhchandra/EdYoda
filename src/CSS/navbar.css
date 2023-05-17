@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+
+  display: flex;
+  justify-content: space-between;
+   background-color: white;
+ 
+   color: black;
+}
+.left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+   gap: 2rem;
+}
+.Company-Name{
+   
+    padding-top: 8px;
+    font-size: large;
+    margin-left: 50px;
+   text-align: center;
+   background: linear-gradient(90.72deg, #0096FF 42.18%, #0048FF 93.77%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+letter-spacing: 0.03em;
+font-weight: 900;
+font-size: 35px;
+
+}
+.dropdwn-1{
+    margin-right: 40px;
+ font-weight: 500;
+  justify-content:space-between;
+  border-style: none;
+  border: none;
+}
+
+.dropdwn-2{
+    
+    border-style: none;
+   margin-right: 15%;
+}
+.login{
+  margin-left: 15px;
+  margin-right: 30px;
+  font-weight: 400;
+  padding-top: 5px;
+
+}
+.join{
+
+    margin-right: 60px;
+    background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  
+}
+
+.right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
